@@ -34,7 +34,7 @@ export default function Home() {
 
       <div className="flex space-x-4 mt-4">
         <a
-          href="https://maps.app.goo.gl/1GFjsGsejkvnLD2t7"
+          href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=14708+E+Jefferson,+Detroit,Mi+USA"
           target="_blank"
           rel="noopener noreferrer"
           className={`
