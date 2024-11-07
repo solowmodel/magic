@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center">
       {/* Sticky Item List (bg-black removed) */}
       <div className="fixed top-0 left-0 right-0 text-center p-2 z-10"> 
-        <p className="text-xs text-gray-300 font-mono">
+        <p className="text-xs text-white font-mono">
           Crystals | Mushrooms | Kratom | Smoking Accessories | Healing | Books | More!
         </p>
       </div>
