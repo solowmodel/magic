@@ -34,7 +34,7 @@ export default function Home() {
 
       <div className="flex space-x-4 mt-4">
         <a
-          href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=14708+E+Jefferson,+Detroit,Mi+USA"
+          href="https://www.google.com/maps/dir/?api=1&destination=14708+E+Jefferson+Ave,+Detroit,+MI"
           target="_blank"
           rel="noopener noreferrer"
           className={`
@@ -55,8 +55,15 @@ export default function Home() {
         </a>
       </div>
 
-    
+          <a 
+        href="mailto:info@magiccrystalhealth.com"
+        className="text-white underline mt-4" 
+      >
+        Contact Us Here
+      </a> 
     </main>
   );
 }
+
+
 
