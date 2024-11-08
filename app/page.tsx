@@ -1,5 +1,8 @@
+
+
 import Image from 'next/image';
 import { Bebas_Neue } from 'next/font/google';
+
 
 const bebasNeue = Bebas_Neue({ weight: '400', subsets: ['latin'] });
 
@@ -21,11 +24,19 @@ export default function Home() {
           height={100}
         />
       </div>
-    
+                  <div className="mb-2 mt-12"> 
+        <Image
+          src="/cmush_t.png"
+          alt="crystal"
+          width={150}
+          height={100}
+        />
+      </div>
       <div className="text-center mb-2"> 
         <p className={bebasNeue.className} style={{ fontSize: '40px', color: 'white' }}>
           DETROIT, MI
         </p>
+        
         <p className="text-xs text-gray-300 font-mono"> 
           Open 7 Days a Week
         </p>
@@ -61,6 +72,7 @@ export default function Home() {
       >
         Contact Us Here
       </a> 
+      
     </main>
   );
 }
